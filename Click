@@ -1,0 +1,7 @@
+var x = 0;
+onEvent("label2", "click", function( ) {
+  x = getNumber("label3");
+  x = x + 1;
+  setText("label3", x);
+  playSound("sound://category_app/app_button_4.mp3", false);
+});
